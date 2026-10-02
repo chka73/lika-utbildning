@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Lika Utbildning AB</title>
-<meta name="description" content="Lika Utbildning AB hjÃ¤lper skolor och verksamheter att fÃ¶rebygga utsatthet pÃ¥ internet â med fokus pÃ¥ barn och vuxna med efterslÃ¤pande fÃ¤rdigheter." />
+<meta name="description" content="Lika Utbildning AB hjälper skolor och verksamheter att förebygga utsatthet på internet - med fokus på barn och vuxna med eftersläpande färdigheter." />
 <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -33,19 +33,19 @@ const EARTH = {
 
 const services = [
   {
-    title: "FÃ¶relÃ¤sningar",
-    desc: "Researchbaserade och praktiska fÃ¶relÃ¤sningar om att fÃ¶rebygga utsatthet pÃ¥ nÃ¤tet â anpassade fÃ¶r skolor, fÃ¶rÃ¤ldrar, SFO och kommuner.",
-    points: ["Vad gÃ¶r barn och unga pÃ¥ nÃ¤tet â och var finns riskerna", "NÃ¤tmobbing, grooming och krÃ¤nkningar: tecken och tidiga signaler", "Konkreta verktyg fÃ¶r vuxna i barnets nÃ¤rhet"],
+    title: "Föreläsningar",
+    desc: "Researchbaserade och praktiska föreläsningar om att förebygga utsatthet på nätet - anpassade för skolor, föräldrar, SFO och kommuner.",
+    points: ["Vad gör barn och unga på nätet - och var finns riskerna", "Nätmobbing, grooming och kränkningar: tecken och tidiga signaler", "Konkreta verktyg för vuxna i barnets närhet"],
   },
   {
     title: "Workshops",
-    desc: "Interaktiva workshops fÃ¶r arbetslag eller hela personalstyrkor, dÃ¤r teori blir till gemensamma rutiner och handlingsplaner.",
-    points: ["FÃ¶r arbetslag, EHT och hela personalstyrkor", "Praktiska fallÃ¶vningar utifrÃ¥n er verksamhet", "Utformning av handlingsplaner och rutiner"],
+    desc: "Interaktiva workshops för arbetslag eller hela personalstyrkor, där teori blir till gemensamma rutiner och handlingsplaner.",
+    points: ["För arbetslag, EHT och hela personalstyrkor", "Praktiska fallövningar utifrån er verksamhet", "Utformning av handlingsplaner och rutiner"],
   },
   {
     title: "Arbetsmaterial",
-    desc: "FÃ¤rdigt, lÃ¤ttanvÃ¤nt material som gÃ¶r arbetet levande lÃ¥ngt efter fÃ¶relÃ¤sningen â fÃ¶r elever, vÃ¥rdnadshavare och personal.",
-    points: ["Lektionsmaterial och elevaktiviteter", "Material fÃ¶r utvecklingssamtal och fÃ¶rÃ¤ldramÃ¶ten", "Checklistor och stÃ¶dmateriel fÃ¶r personal"],
+    desc: "Färdigt, lättanvänt material som gör arbetet levande långt efter föreläsningen - för elever, vårdnadshavare och personal.",
+    points: ["Lektionsmaterial och elevaktiviteter", "Material för utvecklingssamtal och föräldramöten", "Checklistor och stödmateriel för personal"],
   },
 ];
 
@@ -53,14 +53,14 @@ const people = [
   {
     name: "Maria Karlsson",
     initials: "MK",
-    role: "BitrÃ¤dande rektor Ã¥k Fâ3, Ekebyhovsskolan, EkerÃ¶",
-    bio: "Tidigare fÃ¶relÃ¤sare fÃ¶r SÃ¤kra Varje Unge. LÃ¥ng erfarenhet av att arbeta med yngre barns trygghet pÃ¥ nÃ¤tet och av att stÃ¶tta vuxna kring dem.",
+    role: "Biträdande rektor åk F-3, Ekebyhovsskolan, Ekerö",
+    bio: "Tidigare föreläsare för Säkra Varje Unge. Lång erfarenhet av att arbeta med yngre barns trygghet på nätet och av att stötta vuxna kring dem.",
   },
   {
     name: "Sylvia Lindfors",
     initials: "SL",
-    role: "BitrÃ¤dande rektor, anpassad grundskola, Ljungenskolan, Vellinge",
-    bio: "Specialist pÃ¥ barn och vuxna med efterslÃ¤pande fÃ¤rdigheter â och pÃ¥ att anpassa det fÃ¶rebyggande arbetet sÃ¥ att det nÃ¥r alla.",
+    role: "Biträdande rektor, anpassad grundskola, Ljungenskolan, Vellinge",
+    bio: "Specialist på barn och vuxna med eftersläpande färdigheter - och på att anpassa det förebyggande arbetet så att det når alla.",
   },
 ];
 
@@ -101,7 +101,7 @@ function Avatar({ initials }) {
 function Nav({ onNav }) {
   const links = [
     ["om-oss", "Om oss"],
-    ["tjanster", "TjÃ¤nster"],
+    ["tjanster", "Tjänster"],
     ["kontakt", "Kontakt"],
   ];
   return (
@@ -166,18 +166,18 @@ function App() {
       <section id="top" style={{ padding: "96px 24px 88px", textAlign: "center", background: `linear-gradient(180deg, ${EARTH.light}, ${EARTH.bg})` }}>
         <div style={{ maxWidth: 820, margin: "0 auto" }}>
           <div style={{ color: EARTH.clay, fontWeight: 600, letterSpacing: 3, textTransform: "uppercase", fontSize: 13, marginBottom: 16 }}>
-            FÃ¶rebyggande arbete &amp; Skolor &amp; verksamheter
+            Förebyggande arbete &amp; Skolor &amp; verksamheter
           </div>
           <h1 style={{ fontFamily: "Georgia, serif", fontSize: 46, color: EARTH.dark, margin: "0 0 20px", lineHeight: 1.2 }}>
-            Alla har rÃ¤tt att kÃ¤nna sig trygga pÃ¥ nÃ¤tet
+            Alla har rätt att känna sig trygga på nätet
           </h1>
           <p style={{ fontSize: 19, lineHeight: 1.7, color: EARTH.text, margin: "0 auto 36px", maxWidth: 640 }}>
-            Vi hjÃ¤lper skolor och verksamheter att fÃ¶rebygga utsatthet pÃ¥ internet â med sÃ¤rskilt fokus pÃ¥ barn
-            och vuxna med efterslÃ¤pande fÃ¤rdigheter. Med forskning, praktisk erfarenhet och konkreta verktyg.
+            Vi hjälper skolor och verksamheter att förebygga utsatthet på internet - med särskilt fokus på barn
+            och vuxna med eftersläpande färdigheter. Med forskning, praktisk erfarenhet och konkreta verktyg.
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a href="#tjanster" style={{ backgroundColor: EARTH.clay, color: "#faf6ef", padding: "14px 32px", borderRadius: 8, textDecoration: "none", fontWeight: 600, fontSize: 16, display: "inline-block" }}>
-              Se vÃ¥ra tjÃ¤nster
+              Se våra tjänster
             </a>
             <a href="#kontakt" style={{ backgroundColor: "transparent", color: EARTH.dark, padding: "14px 32px", borderRadius: 8, textDecoration: "none", fontWeight: 600, fontSize: 16, border: `2px solid ${EARTH.clay}`, display: "inline-block" }}>
               Kontakta oss
@@ -189,7 +189,7 @@ function App() {
       {/* Om oss */}
       <Section id="om-oss" bg={EARTH.bg}>
         <h2 style={{ fontFamily: "Georgia, serif", fontSize: 34, color: EARTH.dark, textAlign: "center", marginBottom: 12 }}>Om oss</h2>
-        <p style={{ textAlign: "center", color: EARTH.clay, fontSize: 16, marginBottom: 48 }}>TvÃ¥ rektorer, en gemensam drivkraft: trygghet fÃ¶r alla barn och vuxna.</p>
+        <p style={{ textAlign: "center", color: EARTH.clay, fontSize: 16, marginBottom: 48 }}>Två rektorer, en gemensam drivkraft: trygghet för alla barn och vuxna.</p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 32 }}>
           {people.map((p) => (
             <div key={p.name} style={{ backgroundColor: EARTH.card, borderRadius: 16, padding: 36, textAlign: "center", boxShadow: "0 4px 18px rgba(62,54,48,0.10)", borderTop: `4px solid ${EARTH.clay}` }}>
@@ -202,10 +202,10 @@ function App() {
         </div>
       </Section>
 
-      {/* TjÃ¤nster */}
+      {/* Tjänster */}
       <Section id="tjanster" bg={EARTH.light}>
-        <h2 style={{ fontFamily: "Georgia, serif", fontSize: 34, color: EARTH.dark, textAlign: "center", marginBottom: 12 }}>VÃ¥ra tjÃ¤nster</h2>
-        <p style={{ textAlign: "center", fontSize: 16, marginBottom: 48, color: EARTH.clay }}>Anpassade efter er verksamhet â frÃ¥n fÃ¶relÃ¤sning till lÃ¥ngsiktigt material.</p>
+        <h2 style={{ fontFamily: "Georgia, serif", fontSize: 34, color: EARTH.dark, textAlign: "center", marginBottom: 12 }}>Våra tjänster</h2>
+        <p style={{ textAlign: "center", fontSize: 16, marginBottom: 48, color: EARTH.clay }}>Anpassade efter er verksamhet - från föreläsning till långsiktigt material.</p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 28 }}>
           {services.map((s, i) => (
             <div key={s.title} style={{ backgroundColor: "#fffdf8", borderRadius: 16, padding: 32, boxShadow: "0 4px 18px rgba(62,54,48,0.08)", borderTop: `4px solid ${i === 1 ? EARTH.moss : EARTH.clay}` }}>
@@ -215,7 +215,7 @@ function App() {
               <ul style={{ listStyle: "none", padding: 0, margin: 0, fontSize: 14, lineHeight: 1.6 }}>
                 {s.points.map((pt) => (
                   <li key={pt} style={{ display: "flex", gap: 8, marginBottom: 6, alignItems: "flex-start" }}>
-                    <span style={{ color: EARTH.moss, fontWeight: 700 }}>â</span> {pt}
+                    <span style={{ color: EARTH.moss, fontWeight: 700 }}>-</span> {pt}
                   </li>
                 ))}
               </ul>
@@ -228,14 +228,14 @@ function App() {
       <Section id="kontakt" bg={EARTH.bg}>
         <h2 style={{ fontFamily: "Georgia, serif", fontSize: 34, color: EARTH.dark, textAlign: "center", marginBottom: 12 }}>Kontakt</h2>
         <p style={{ textAlign: "center", fontSize: 16, color: EARTH.clay, marginBottom: 40 }}>
-          Skriv till oss â vi Ã¥terkommer med fÃ¶rslag pÃ¥ upplÃ¤gg och pris.
+          Skriv till oss - vi återkommer med förslag på upplägg och pris.
         </p>
         <div style={{ maxWidth: 560, margin: "0 auto", backgroundColor: EARTH.card, borderRadius: 16, padding: 36, boxShadow: "0 4px 18px rgba(62,54,48,0.10)" }}>
           {sent ? (
             <div style={{ textAlign: "center", padding: 32 }}>
-              <div style={{ fontSize: 44, marginBottom: 12 }}>âï¸</div>
-              <h3 style={{ fontFamily: "Georgia, serif", color: EARTH.dark, margin: "0 0 8px" }}>Tack fÃ¶r ditt meddelande!</h3>
-              <p style={{ fontSize: 15 }}>Vi hÃ¶r av oss sÃ¥ snart vi kan.</p>
+              <div style={{ fontSize: 44, marginBottom: 12 }}>-ï¸</div>
+              <h3 style={{ fontFamily: "Georgia, serif", color: EARTH.dark, margin: "0 0 8px" }}>Tack för ditt meddelande!</h3>
+              <p style={{ fontSize: 15 }}>Vi hör av oss så snart vi kan.</p>
             </div>
           ) : (
             <form
@@ -247,9 +247,9 @@ function App() {
             >
               <input style={inputStyle} placeholder="Namn" required value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} />
               <input style={inputStyle} type="email" placeholder="E-post" required value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} />
-              <textarea style={{ ...inputStyle, minHeight: 120, resize: "vertical" }} placeholder="BerÃ¤tta kort vad ni behÃ¶ver hjÃ¤lp medâ¦" required value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} />
+              <textarea style={{ ...inputStyle, minHeight: 120, resize: "vertical" }} placeholder="Berätta kort vad ni behöver hjälp med-¦" required value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} />
               <button type="submit" style={{ backgroundColor: EARTH.clay, color: "#faf6ef", border: "none", padding: "14px 24px", borderRadius: 8, fontSize: 16, fontWeight: 600, cursor: "pointer" }}>
-                Skicka fÃ¶rfrÃ¥gan
+                Skicka förfrågan
               </button>
             </form>
           )}
@@ -258,7 +258,7 @@ function App() {
 
       <footer style={{ backgroundColor: EARTH.dark, color: "#c9bda8", padding: "32px 24px", textAlign: "center", fontSize: 14 }}>
         <div style={{ fontFamily: "Georgia, serif", fontSize: 17, color: "#e5dcc9", marginBottom: 6 }}>Lika Utbildning AB</div>
-        <div>FÃ¶rebyggande arbete mot utsatthet pÃ¥ internet Â· Drivs av Maria Karlsson &amp; Sylvia Lindfors</div>
+        <div>Förebyggande arbete mot utsatthet på internet - Drivs av Maria Karlsson &amp; Sylvia Lindfors</div>
       </footer>
     </div>
   );
